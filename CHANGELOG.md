@@ -3,6 +3,12 @@
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/lang/it/).
 
+## [1.1.2] - 2026-11-16
+
+### Fixed
+- Il prompt del nome dava errore (validatore jQuery non caricato) e la passkey non veniva registrata; se il nome resta vuoto si usa quello suggerito.
+- L'azione **Rimuovi** non compariva nelle righe della griglia.
+
 ## [1.1.1] - 2026-11-16
 
 ### Fixed
