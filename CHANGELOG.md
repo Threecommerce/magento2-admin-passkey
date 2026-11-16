@@ -3,6 +3,11 @@
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/lang/it/).
 
+## [1.1.1] - 2026-11-16
+
+### Fixed
+- Il pulsante **Aggiungi una passkey** della griglia rimandava a una pagina inesistente (404) invece di aprire il prompt.
+
 ## [1.1.0] - 2026-11-16
 
 ### Changed
