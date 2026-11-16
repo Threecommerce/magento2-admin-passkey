@@ -10,14 +10,14 @@ Adds a **passkey sign-in** to the Magento admin: Touch ID, Face ID, Windows Hell
 ## Features
 
 - **"Sign in with a passkey"** button on the admin login page. The credential is discoverable, so the browser offers your account and you do not even type the username.
-- **Several passkeys per admin user** (up to a limit you set), added and removed in *System → Permissions → My Passkeys*.
+- **Several passkeys per admin user** (up to a limit you set), managed in *System → Permissions → My Passkeys*: a standard admin grid with an **Add a passkey** button, a name for each device, **Remove** per row and bulk removal.
 - **User verification is always required** (fingerprint, face or PIN), so a passkey sign-in is already two factors. You can switch this off if you still want the 2FA code after the passkey.
 - Optional **password lockout**: once an admin has a passkey, the password no longer opens the admin, neither from the login form nor from the admin API token.
 - **Recovery command** if a device is lost: `bin/magento threecommerce:adminpasskey:reset --user=NAME` (or `--all`).
 - Abuse protection: limited failed attempts and requests, one-time challenges that expire, and a signature counter check against cloned authenticators.
 - Works with Magento's two-factor module disabled as well as enabled.
 
-![Passkeys registered by an admin user](images/admin-passkey-my-passkeys.png)
+![The My Passkeys grid with two registered devices](images/admin-passkey-my-passkeys.png)
 
 ## Requirements
 
