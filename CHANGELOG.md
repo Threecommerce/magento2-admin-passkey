@@ -3,6 +3,17 @@
 Il formato è basato su [Keep a Changelog](https://keepachangelog.com/it/1.1.0/)
 e questo progetto aderisce al [Semantic Versioning](https://semver.org/lang/it/).
 
+## [1.1.0] - 2026-11-16
+
+### Changed
+- La pagina **Sistema → Permessi → My Passkeys** è ora una griglia standard dell'admin (UI component):
+  pulsante **Aggiungi una passkey** nell'intestazione, toolbar con filtri, colonne e paginazione,
+  azione **Rimuovi** per riga con conferma. Il nome della passkey si inserisce nel prompt che si apre col pulsante.
+  Prima l'elenco e il modulo erano HTML libero sotto la tabella, poco leggibili con i temi admin scuri.
+
+### Added
+- Rimozione massiva delle passkey selezionate dalla griglia.
+
 ## [1.0.0] - 2026-11-09
 
 ### Added
