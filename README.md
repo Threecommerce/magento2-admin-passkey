@@ -4,7 +4,7 @@ Adds a **passkey sign-in** to the Magento admin: Touch ID, Face ID, Windows Hell
 
 ![The admin login page with the "Sign in with a passkey" button](images/admin-passkey-login.png)
 
-**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.2 – 8.4 · any theme (it only changes the admin)
+**Compatibility:** Magento Open Source / Adobe Commerce 2.4.4 – 2.4.9 · Mage-OS 1.x / 3.x · PHP 8.2 – 8.5 · any theme (it only changes the admin)
 **License:** commercial · coming soon
 
 ## Features
@@ -22,7 +22,7 @@ Adds a **passkey sign-in** to the Magento admin: Touch ID, Face ID, Windows Hell
 ## Requirements
 
 - Magento Open Source / Adobe Commerce 2.4.4+ or Mage-OS
-- PHP 8.2 – 8.4
+- PHP 8.2 – 8.5
 - **HTTPS** on the admin, and a browser with WebAuthn support (all current ones)
 - Packages: `threecommerce/m2-base` and `mage-os/module-passkey-auth` (both installed automatically by Composer)
 
